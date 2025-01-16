@@ -27,7 +27,7 @@ namespace WebApplication1.Models
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Course>().HasMany(x => x.instructors).WithOne(x => x.Course);
+            modelBuilder.Entity<Course>().HasMany(x => x.instructors).WithOne(x => x.Course).OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Course>().HasOne(x => x.Department).WithMany(x => x.Courses).HasForeignKey(x => x.DepartmentId).OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Course>().HasMany(X=>X.coursesRSLT).WithOne().HasForeignKey(x => x.CourseId).OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<CourseResult>().HasOne(x => x.Trainee).WithMany(x => x.CoursesRSLT).HasForeignKey(x=>x.TraineeId).OnDelete(DeleteBehavior.Restrict);
