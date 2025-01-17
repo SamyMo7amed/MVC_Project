@@ -4,21 +4,31 @@
     ViewData["Title"] = "Details";
 }
 
-<img src="/wwwroot/photos/@Model.instructor.Image">instructor image</img>
+@if(@Model.instructor.Image!=null){
+<img src="/wwwroot/photos/@Model.instructor.Image"/>
+
+}
+
+
 
 <form action="/Instructor/SaveData/@Model.instructor.Id" method="post">
     @*     <input type="hidden" name="id" value="@Model.Id" /> *@
     <input type="hidden" name="Id" value="@Model.instructor.Id"/>
-    <input type="hidden" name="Image" value="@Model.instructor.Image"/>
-    
     <input type="hidden" name="Course" value="@Model.instructor.Course" />
     <input type="hidden" name="CourseId" value="@Model.instructor.CourseId" />
    <div>
        <label for="Name">Name</label>
         <input type="text" id="Name" name="Name" value="@Model.instructor.Name" class="form form-control" />
    </div>
+   @if(Model.instructor.Image==null){
+<div>
+        <label for="Image"> Image_Name</label>
+            <input type="text" name="Image" value="@Model.instructor.Image" id="Image" class="form form-control" />
+        </div>
+        
 
-    <div>
+   }
+   <div>
         <label for=" Salary">Salary</label>
         <input type="number" id="Salary" name="Salary" value="@Model.instructor.Salary"  class="form form-control" />
     </div>
