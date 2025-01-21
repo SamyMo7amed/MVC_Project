@@ -1,0 +1,41 @@
+﻿@model CourseWithDeptList
+@{
+    ViewData["Title"] = "Details";
+    SelectList selectListItems = new SelectList(Model.Departments,"Id","Name");
+}
+
+<h1>Details</h1>
+<form asp-action="SaveData" asp-controller="Course" method="post" asp-route-Id="@Model.Course.Id" class=" form form-control ">
+
+
+    <div>
+        <label asp-for="Course.Name"></label>
+
+        <input asp-for="Course.Name" class=" form form-control " />
+
+
+    </div>
+    <div>
+        <label asp-for="Course.Degree">Max-Degree</label>
+        <input asp-for="Course.Degree" class=" form form-control " />
+        
+    </div>
+    <div>
+        <label asp-for="Course.Mindegree">Min-Degree</label>
+        <input asp-for="Course.Mindegree" class=" form form-control " />
+    </div>
+    <div>
+
+        <label asp-for="Course.DepartmentId">Department</label>
+        <select asp-items="selectListItems" asp-for="Course.DepartmentId" class=" form form-control "></select>
+
+    </div>
+
+
+    <input type="submit" value="Save" class="btn btn-success" />
+
+
+</form>
+
+
+

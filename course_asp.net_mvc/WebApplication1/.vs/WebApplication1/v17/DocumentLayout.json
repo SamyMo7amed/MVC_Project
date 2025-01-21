@@ -3,36 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\views\\instructor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\instructor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\viewmodel\\coursewithdeptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodel\\coursewithdeptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\viewmodel\\courselistanddeptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodel\\courselistanddeptlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\course\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\mvcreposetory\\course_asp.net_mvc\\webapplication1\\webapplication1\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{342D0C26-FBEF-4E4C-9111-4CE7D23D1EFC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_N5JLDA3_SQLEXPRESS/MVC/True/SqlTable/dbo.Courses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,109 +41,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InstructorController.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\InstructorController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\InstructorController.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\InstructorController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\InstructorController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAQwDMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T17:26:12.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Instructor.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Models\\Instructor.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Instructor.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Models\\Instructor.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Instructor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T17:09:25.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Instructor\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Instructor\\Details.cshtml",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Instructor\\Details.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Instructor\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T16:32:05.714Z",
+              "WhenOpened": "2025-01-21T17:38:44.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Instructor\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Instructor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Instructor\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Instructor\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T15:34:24.244Z",
+              "Title": "CourseListAndDeptList.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\ViewModel\\CourseListAndDeptList.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModel\\CourseListAndDeptList.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\ViewModel\\CourseListAndDeptList.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModel\\CourseListAndDeptList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:16:00.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CourseWithDeptList.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\ViewModel\\CourseWithDeptList.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModel\\CourseWithDeptList.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\ViewModel\\CourseWithDeptList.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModel\\CourseWithDeptList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T15:29:03.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T15:49:59.345Z",
+              "WhenOpened": "2025-01-21T17:15:32.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Title": "dbo.Courses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_N5JLDA3_SQLEXPRESS/MVC/True/SqlTable/dbo.Courses.sql",
+              "ToolTip": "dbo.Courses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-21T16:18:32.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:12:42.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Models\\Course.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:45:20.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Course\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Course\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Course\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Course\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-06T14:54:58.174Z"
+              "WhenOpened": "2025-01-21T09:35:46.047Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:39:16.247Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\MVCReposetory\\course_asp.net_mvc\\WebApplication1\\WebApplication1\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T08:51:48.228Z",
               "EditorCaption": ""
             }
           ]

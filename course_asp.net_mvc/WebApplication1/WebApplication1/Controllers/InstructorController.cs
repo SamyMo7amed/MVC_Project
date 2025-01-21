@@ -37,7 +37,7 @@ namespace WebApplication1.Controllers
             
             
             Instructor baseInstruct=new Instructor();
-            bool Flag = false;//this flag to avoid wirte some code  when i add the new instructor in database
+            bool Flag = false;//this flag to avoid write some code  when i add the new instructor in database
             if (id != 0)
             {
                 Instructor baseInstruct2=_context.Instructors.FirstOrDefault(x=>x.Id == id)!;
