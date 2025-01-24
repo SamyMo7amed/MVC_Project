@@ -56,6 +56,7 @@ namespace WebApplication1.Controllers
                 baseInstruct.address=instructor.address;
                 baseInstruct.Salary=instructor.Salary;  
                 baseInstruct.DepartmentId=instructor.DepartmentId;
+               
                 if (Flag == true) {
                     baseInstruct.Image = instructor.Image;
                     // this line of code to git the courseId not the best because  their is another courses linked with the same department but in temprary
