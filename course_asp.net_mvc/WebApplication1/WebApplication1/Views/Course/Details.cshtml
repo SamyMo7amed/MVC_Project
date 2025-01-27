@@ -7,22 +7,28 @@
 <h1>Details</h1>
 <form asp-action="SaveData" asp-controller="Course" method="post" asp-route-Id="@Model.Course.Id" class=" form form-control ">
 
+    <div asp-validation-summary="All"></div>
+    @*to represent all validation error the built in and custom*@
 
+ 
     <div>
         <label asp-for="Course.Name"></label>
 
         <input asp-for="Course.Name" class=" form form-control " />
+        <span asp-validation-for="Course.Name" class="text-danger"></span>
 
 
     </div>
     <div>
         <label asp-for="Course.Degree">Max-Degree</label>
         <input asp-for="Course.Degree" class=" form form-control " />
+        <span asp-validation-for="Course.Degree" class="text-danger"></span>
         
     </div>
     <div>
         <label asp-for="Course.Mindegree">Min-Degree</label>
         <input asp-for="Course.Mindegree" class=" form form-control " />
+        <span asp-validation-for="Course.Mindegree" class="text-danger"></span>
     </div>
     <div>
 
@@ -36,6 +42,14 @@
 
 
 </form>
+
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
+
 
 
 

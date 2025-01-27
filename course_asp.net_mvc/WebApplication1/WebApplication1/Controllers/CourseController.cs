@@ -1,13 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using WebApplication1.Models;
 using WebApplication1.ViewModel;
 namespace WebApplication1.Controllers
 {
     public class CourseController : Controller
     {
-        
-        private  ITIContext context=new ITIContext();
+
+        private ITIContext context = new ITIContext();
 
         public IActionResult Index()
         {
@@ -19,55 +18,57 @@ namespace WebApplication1.Controllers
 
             return View("Index", CourseLists);
         }
-        public IActionResult Details(int Id) {
-            
+        public IActionResult Details(int Id)
+        {
 
-            Course course= context.Courses.FirstOrDefault(c => c.Id == Id)!;
-            CourseWithDeptList courseWithDeptList = new CourseWithDeptList();   
+
+            Course course = context.Courses.FirstOrDefault(c => c.Id == Id)!;
+            CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
             courseWithDeptList.Course = course;
-            courseWithDeptList.Departments=context.Departments.ToList();
-            
-            return View("Details",courseWithDeptList);
-        
+            courseWithDeptList.Departments = context.Departments.ToList();
+
+            return View("Details", courseWithDeptList);
+
         }
 
         [HttpPost]
-        public IActionResult SaveData(int id,Course course) {
+        public IActionResult SaveData(int id, Course course)
+        {
 
-            Course basecourse =new Course();
+            Course basecourse = new Course();
             bool flag = false;
-            if (id !=0)
+            if (id != 0)
             {
-                Course baseCourse2= context.Courses.FirstOrDefault(c => c.Id == id)!;
+                Course baseCourse2 = context.Courses.FirstOrDefault(c => c.Id == id)!;
 
-               basecourse=baseCourse2;
+                basecourse = baseCourse2;
             }
             else
             {
-              flag = true;     
+                flag = true;
             }
 
 
-             if (course.Name == null)
+            if (course.Name == null)
             {
                 CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
                 courseWithDeptList.Course = course;
                 courseWithDeptList.Departments = context.Departments.ToList();
 
-                return View("Details",courseWithDeptList);
+                return View("Details", courseWithDeptList);
 
             }
             else
             {
 
 
-                basecourse.Name = course.Name;  
+                basecourse.Name = course.Name;
                 basecourse.Degree = course.Degree;
                 basecourse.Mindegree = course.Mindegree;
-                   basecourse.DepartmentId= course.DepartmentId;  
+                basecourse.DepartmentId = course.DepartmentId;
                 if (flag)
                 {
-                    
+
                     context.Courses.Add(basecourse);
 
 
@@ -78,13 +79,13 @@ namespace WebApplication1.Controllers
             }
 
 
-           
+
         }
 
 
         public IActionResult AddNew()
         {
-            CourseWithDeptList courseWithDeptList= new CourseWithDeptList();
+            CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
 
             courseWithDeptList.Course = new Course();
             courseWithDeptList.Departments = context.Departments.ToList();
@@ -93,6 +94,12 @@ namespace WebApplication1.Controllers
             return View("Details", courseWithDeptList);
         }
 
+        public HttpRequest GetRequest()
+        {
+            return Request;
+        }
+
 
     }
 }
+
